@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  }
+
+  header {
+    
+  }
+  
+  nav > a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  main {
+
+  }
+
+  footer {
+    text-align: center;
+  }
