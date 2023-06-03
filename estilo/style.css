@@ -79,6 +79,60 @@ body {
   }
 
   .button {
-    
+    background-color: #ECD6C4;
     border-radius: 20px;
+    border: none;
+    box-shadow: 4px  5px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    height: 60px;
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.13px;
+    color: #2F2325;
+  }
+
+  .button:hover {
+    background-image: linear-gradient(to bottom, #702423, #F01713);
+  }
+
+  .conteudo-img {
+    height: 430px;
+
+  }
+
+  .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .cs-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: var(--font-1);
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+  }
+
+  .cs-p-titulo {
+    font-family: var(--font-2);
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+  }
+
+  .rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+  }
+
+  .rodape-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
   }
