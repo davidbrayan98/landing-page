@@ -23,6 +23,7 @@ body {
   }
 
   .cabecalho {
+    min-height: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,6 +38,7 @@ body {
   .menu {
     display: flex;
     gap: 32px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.541);
   }
 
   .menu-item {
@@ -44,11 +46,21 @@ body {
     color:#FFF2E7;
     font-weight: 400;
     font-size: 18px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .menu-item:hover {
+    
+    background-color: #ffb09e;
   }
 
   .conteudo {
     border-top: 0.4px solid #FFF2E7;
     margin-bottom: 48px;
+    min-width: 320px;
+    max-width: 1200px;
   }
 
   .conteudo-principal {
@@ -93,7 +105,7 @@ body {
   }
 
   .button:hover {
-    background-image: linear-gradient(to bottom, #702423, #F01713);
+    background-image: linear-gradient(to right, #e3c1b9, #8E5D52);
   }
 
   .conteudo-img {
