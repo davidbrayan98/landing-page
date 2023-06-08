@@ -34,6 +34,12 @@ body {
     height: 75px;
   }
 
+  @media screen and (max-width: 320px) {
+    .cabecalho-img {
+      width: 100%;
+    }
+  }
+
   .menu {
     display: flex;
     gap: 32px;
@@ -46,6 +52,12 @@ body {
     font-size: 18px;
     padding: 5px;
     transition-duration: 0.5s;
+  }
+
+  @media screen and (max-width: 320px) {
+    #comunidade {
+      display: none;
+    }    
   }
 
   .menu-item:hover {
@@ -105,7 +117,18 @@ body {
 
   .conteudo-img {
     height: 430px;
+  }
 
+  @media screen and (max-width: 480px) {
+    .conteudo-img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .conteudo-img {
+      display: none;
+    }
   }
 
   .conteudo-secundario {
